@@ -1,0 +1,158 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0c0b0c;
+  color: rgb(247, 244, 246);
+  font-family: "Inter";
+  font-weight: 400;
+  min-height: 100vh;
+}
+
+a {
+  font-weight: 900;
+  color: #d322bb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c40675;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+button {
+  background-color: #2e2830;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 5px 30px;
+  color: rgb(247, 236, 242);
+  border: 1px solid transparent;
+}
+button:hover {
+  border: 1px solid #db43a8;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  font-size: large;
+}
+header div {
+  display: flex;
+  gap: 20px;
+}
+
+.job-count {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.list-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 50px;
+  padding: 50px;
+}
+.list-section .job-card {
+  background-color: rgba(221, 198, 220, 0.555);
+  padding: 10px;
+  border-radius: 15px;
+}
+.list-section .job-card .head {
+  display: flex;
+  background-color: #2e2830;
+  gap: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.list-section .job-card .head .letter {
+  height: 60px;
+  width: 60px;
+  background-color: #802f61;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.list-section .job-card .head .info p {
+  font-size: 20px;
+}
+.list-section .job-card .body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 50px;
+}
+.list-section .job-card .body .field {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.list-section .job-card .body .field img {
+  width: 30px;
+}
+.list-section .job-card .body .status {
+  display: flex;
+  align-items: start;
+}
+.list-section .job-card .body .status p {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.list-section .job-card .body .status .Mülakat {
+  background-color: rgba(73, 170, 148, 0.842);
+}
+.list-section .job-card .body .status .Devam {
+  background-color: rgba(214, 212, 111, 0.664);
+}
+.list-section .job-card .body .status .Reddedildi {
+  background-color: rgba(223, 104, 104, 0.822);
+}
+
+.add-sec {
+  max-width: 700px;
+  margin: 200px auto;
+  box-shadow: 0 22px 70px 4px rgb(110, 28, 89);
+  padding: 18px;
+  border-radius: 18px;
+}
+.add-sec .inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 5px;
+  gap: 30px;
+  margin-top: 24px;
+}
+.add-sec .inputs .input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.add-sec .inputs .input-field input {
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+.add-sec .inputs .input-field select {
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.filter-sec {
+  max-width: 600px;
+  margin: 0px auto;
+}
+.filter-sec button {
+  min-height: 45px;
+}/*# sourceMappingURL=style.css.map */
