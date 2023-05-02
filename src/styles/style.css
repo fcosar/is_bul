@@ -65,13 +65,13 @@ header div {
   padding: 50px;
 }
 .list-section .job-card {
-  background-color: rgba(221, 198, 220, 0.555);
+  background-color: rgba(247, 240, 247, 0.582);
   padding: 10px;
   border-radius: 15px;
 }
 .list-section .job-card .head {
   display: flex;
-  background-color: #2e2830;
+  background-color: #291827;
   gap: 40px;
   border-radius: 10px;
   margin-bottom: 20px;

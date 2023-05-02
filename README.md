@@ -2,4 +2,4 @@
 
 <h3>React Toolkit ile İş Bulma Sitesi<h3>
 
-![](./src/assets/isbul.gif)# is_bul
+![](./src/assets/is_bul.gif)# is_bul
